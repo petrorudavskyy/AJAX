@@ -1,0 +1,29 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+body, .container {
+  background-color: #6ED8FF;
+}
+
+.panel {
+  background-color: #FFDDFC;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.temp, .weather, .date {
+  font-size: 30px;
+}
+
+.prognoz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

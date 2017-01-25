@@ -1,0 +1,45 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	opacity: 0; }
+.fill {
+	height: 100vh;
+	margin-bottom: 0;
+	box-shadow: 0 30px 50px rgba(0,0,0,0.3); }
+.grad {
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #F7D6E0, #E6C79C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #F7D6E0, #E6C79C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #F7D6E0, #E6C79C); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #F7D6E0, #E6C79C); /* Standard syntax */ }
+.pad-toggle {
+	margin-top: 10px;
+	padding-right: 25px; }
+#city-state {
+	font-weight: 700;
+	margin-top: 1.5em; }
+#country {
+	letter-spacing: 3px;
+	opacity: 0.8; }
+#icon1 {
+	max-width: 50%; }
+#temperature {
+	font-size: 8em;
+	font-family: 'Montserrat', sans-serif; }
+#condition {
+	opacity: 0.8; }
+#credits {
+	position: relative;
+	bottom: 0px; }
+.prognoz {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/* Re-adjusts the Skycon - this makes the skycon somewhat responsive */
+@media only screen and (min-width: 640px) {
+    #icon1 {
+        width: 25%; }
+}
+

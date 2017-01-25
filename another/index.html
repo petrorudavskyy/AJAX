@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css">
+  </head>
+    <body id="body">
+   <div class="container">
+  <div class="panel panel-default fill grad" >
+    
+    <!-- BUTTON TOGGLE - UTILIZES BOOTSTRAP TOGGLE - http://www.bootstraptoggle.com/ -->
+    <!-- <div class="row">
+      <div class="col-xs-12 text-right pad-toggle">
+        <input id="unit-convert" type="checkbox" data-toggle="toggle" data-off="F°" data-on="C°" data-size="mini">
+      </div>
+    </div>  --><!-- END BUTTON TOGGLE ROW -->
+    
+    <!-- CITY & STATE HEADER -->
+    <div class="row">
+      <div class="col-xs-12 text-center pad-me">
+        <p><i class="fa fa-map-marker"></i> <span id="city-state"></span></p>
+      </div>
+    </div> <!-- END CITY & STATE HEADER ROW -->
+    
+    <!-- COUNTRY HEADER -->
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <p id="country"></p>
+      </div>
+    </div> <!-- END COUNTRY HEADER ROW -->
+    
+    <!-- INSERT WEATHER 'SKYCON' - BY DARKSKY - https://darkskyapp.github.io/skycons/ -->
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <canvas id="icon1" width="500px" height="500px"></canvas>
+      </div>
+    </div> <!-- END SKYCON ROW -->
+
+    <!-- LARGE TEMPERATURE READING -->
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <p id="temperature"></p>
+      </div>
+    </div> <!-- END TEMPERATURE READING ROW -->
+    
+    <!-- WEATHER CONDITION DESCRIPTION -->
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <p id="condition"></p>
+      </div>
+    </div> <!-- END WEATHER DESCRIPTION ROW -->
+    
+    <div class="prognoz">
+      <button id="last" class="btn btn-primary btn-lg" type="submit">Previous</button>
+      <button id="next" class="btn btn-primary btn-lg" type="submit">Next</button>
+    </div>
+  </div>
+</div>
+
+
+    
+    <script src = "https://rawgit.com/maxdow/skycons/master/skycons.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src = "script.js"></script>
+  </body>
+</html>
